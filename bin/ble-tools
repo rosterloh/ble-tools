@@ -1,0 +1,9 @@
+#!/usr/bin/env node
+
+'use strict';
+
+process.title = 'ble-tools';
+
+var BleTools = require('../lib/index.js').BleTools;
+
+BleTools.run();
