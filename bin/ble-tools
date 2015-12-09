@@ -6,4 +6,4 @@ process.title = 'ble-tools';
 
 var BleTools = require('../lib/index.js').BleTools;
 
-BleTools.run();
+BleTools.run(process.argv);
